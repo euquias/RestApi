@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "nome": "Sergio Amad",
+      "cargo": "Founder & CEO",
+      "telefone": "11921345675",
+      "foto": ""
+    },
+    {
+      "nome": "euquias",
+      "cargo": "Founder & CEO",
+      "telefone": "11921345675",
+      "foto": ""
+    },
+    {
+      "nome": "luana",
+      "cargo": "Founder & CEO",
+      "telefone": "11921345675",
+      "foto": ""
+    },
+    {
+      "nome": "Heloisa",
+      "cargo": "Founder & CEO",
+      "telefone": "11921345675",
+      "foto": ""
+    }
+  ]
+}
