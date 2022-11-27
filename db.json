@@ -67,7 +67,7 @@
       "imagePath": "assets/foods/mussarela.png",
       "name": "pizza mussarela",
       "description": "Cup Cake recheado de Doce de Leite",
-      "price": 25.00,
+      "price": 25,
       "restaurantId": "Afavoritta"
     },
     {
@@ -75,7 +75,7 @@
       "imagePath": "assets/foods/presunto.png",
       "name": "mussarela presunto",
       "description": "Coberto com chantilly",
-      "price": 27.00,
+      "price": 27,
       "restaurantId": "Afavoritta"
     },
     {
@@ -83,7 +83,7 @@
       "imagePath": "assets/foods/frango.png",
       "name": "frango",
       "description": "Pão artesanal com queijos italianos",
-      "price": 27.00,
+      "price": 27,
       "restaurantId": "Afavoritta"
     },
     {
@@ -91,7 +91,7 @@
       "imagePath": "assets/foods/napolitana.png",
       "name": "Napolitana",
       "description": "O clássico. Não tem como errar.",
-      "price": 27.00,
+      "price": 27,
       "restaurantId": "Afavoritta"
     },
     {
@@ -99,7 +99,7 @@
       "imagePath": "assets/foods/pizza_calabresa.png",
       "name": "Calabresa",
       "description": "Batatas fritas crocantes",
-      "price": 29.00,
+      "price": 29,
       "restaurantId": "Afavoritta"
     },
     {
@@ -107,7 +107,7 @@
       "imagePath": "assets/foods/generica.png",
       "name": "Margarita",
       "description": "O refri mais gelado da cidade.",
-      "price": 29.00,
+      "price": 29,
       "restaurantId": "Afavoritta"
     },
     {
@@ -115,7 +115,7 @@
       "imagePath": "assets/foods/moda.png",
       "name": "Moda da casa",
       "description": "Tradicional cappuccino com chantilly",
-      "price": 35.00,
+      "price": 35,
       "restaurantId": "Afavoritta"
     },
     {
@@ -147,7 +147,7 @@
       "imagePath": "assets/foods/lombo.png",
       "name": "Lombo",
       "description": "Frango grelhado e salada",
-      "price": 35.00,
+      "price": 35,
       "restaurantId": "Afavoritta"
     },
     {
@@ -155,7 +155,7 @@
       "imagePath": "assets/foods/bacon.png",
       "name": "Bacon",
       "description": "Clássica salada ceasar.",
-      "price": 36.00,
+      "price": 36,
       "restaurantId": "Afavoritta"
     },
     {
@@ -163,7 +163,7 @@
       "imagePath": "assets/foods/generica.png",
       "name": "Suprema",
       "description": "Sunday com várias bolas de sorvete a sua escolha",
-      "price": 37.00,
+      "price": 37,
       "restaurantId": "Afavoritta"
     },
     {
@@ -171,47 +171,7 @@
       "imagePath": "assets/foods/generica.png",
       "name": "Francesa",
       "description": "Picolé de brigadeiro recheado com côco.",
-      "price": 38.00,
-      "restaurantId": "Afavoritta"
-    },
-    {
-      "id": "coca",
-      "imagePath": "assets/foods/coca.png",
-      "name": "Coca 2 litro",
-      "description": "Picolé de brigadeiro recheado com côco.",
-      "price": 10.00,
-      "restaurantId": "Afavoritta"
-    },
-    {
-      "id": "fanta",
-      "imagePath": "assets/foods/fanta.png",
-      "name": "Fanta",
-      "description": "Picolé de brigadeiro recheado com côco.",
-      "price": 7.00,
-      "restaurantId": "Afavoritta"
-    },
-    {
-      "id": "mineiro",
-      "imagePath": "assets/foods/mineiro.png",
-      "name": "Mineiro",
-      "description": "Picolé de brigadeiro recheado com côco.",
-      "price": 6.00,
-      "restaurantId": "Afavoritta"
-    },
-    {
-      "id": "sprit",
-      "imagePath": "assets/foods/sprit.png",
-      "name": "Sprite",
-      "description": "Picolé de brigadeiro recheado com côco.",
-      "price": 7.00,
-      "restaurantId": "Afavoritta"
-    },
-    {
-      "id": "uva",
-      "imagePath": "assets/foods/uva.png",
-      "name": "Uva",
-      "description": "Picolé de brigadeiro recheado com côco.",
-      "price": 7.00,
+      "price": 38,
       "restaurantId": "Afavoritta"
     },
     {
@@ -219,7 +179,7 @@
       "imagePath": "assets/foods/chedda.png",
       "name": "Chedda",
       "description": "Picolé de brigadeiro recheado com côco.",
-      "price": 7.00,
+      "price": 7,
       "restaurantId": "Afavoritta"
     },
     {
@@ -227,7 +187,7 @@
       "imagePath": "assets/foods/catupiry.png",
       "name": "Catupiry",
       "description": "Picolé de brigadeiro recheado com côco.",
-      "price": 4.00,
+      "price": 4,
       "restaurantId": "Afavoritta"
     },
     {
@@ -235,8 +195,84 @@
       "imagePath": "assets/foods/recheio.png",
       "name": "Chocolate",
       "description": "Picolé de brigadeiro recheado com côco.",
-      "price": 5.00,
+      "price": 5,
       "restaurantId": "Afavoritta"
+    }
+  ],
+  "menu2": [
+    {
+      "id": "coca",
+      "imagePath": "assets/foods/coca.png",
+      "name": "Coca 2 litro",
+      "description": "Picolé de brigadeiro recheado com côco.",
+      "price": 10,
+      "restaurantId": "Afavoritta"
+    },
+    {
+      "id": "fanta",
+      "imagePath": "assets/foods/fanta.png",
+      "name": "Fanta",
+      "description": "Picolé de brigadeiro recheado com côco.",
+      "price": 7,
+      "restaurantId": "Afavoritta"
+    },
+    {
+      "id": "mineiro",
+      "imagePath": "assets/foods/mineiro.png",
+      "name": "Mineiro",
+      "description": "Picolé de brigadeiro recheado com côco.",
+      "price": 6,
+      "restaurantId": "Afavoritta"
+    },
+    {
+      "id": "sprit",
+      "imagePath": "assets/foods/sprit.png",
+      "name": "Sprite",
+      "description": "Picolé de brigadeiro recheado com côco.",
+      "price": 7,
+      "restaurantId": "Afavoritta"
+    },
+    {
+      "id": "uva",
+      "imagePath": "assets/foods/uva.png",
+      "name": "Uva",
+      "description": "Picolé de brigadeiro recheado com côco.",
+      "price": 7,
+      "restaurantId": "Afavoritta"
+    }
+  ],
+  "frete": [
+    {
+      "id": "frete",
+      "imagePath": "",
+      "local": "Buscar no local",
+      "temp estimado": "40 a 60",
+      "price": 5,
+      "restaurantId": "Afavoritta1"
+    },
+    {
+      "id": "frete",
+      "imagePath": "",
+      "local": "mesquita",
+      "temp estimado": "40 a 60",
+      "price": 5,
+      "restaurantId": "Afavoritta1"
+    },
+    {
+      "id": "frete",
+      "imagePath": "",
+      "local": "jadim edite",
+      "temp estimado": "40 a 60",
+      "price": 3,
+      "restaurantId": "Afavoritta1"
+    },
+    {
+      "id": "frete",
+      "imagePath": "",
+      "local": "jardim abc",
+      "temp estimado": "40 a 60",
+      "price": 7,
+      "restaurantId": "Afavoritta1"
     }
   ],
   "reviews": [
@@ -402,5 +438,277 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "casa do euquias",
+      "number": "212122",
+      "name": "euquias",
+      "tests": "deb&cre",
+      "delivery": 0,
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "frango",
+          "value": 27
+        },
+        {
+          "quantity": 1,
+          "menuid": "mussarela presunto",
+          "value": 27
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "sdasdaasdsad",
+      "number": "asdasdasdasdasd",
+      "name": "sdasdasdas",
+      "tests": "pix",
+      "delivery": "",
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "frango",
+          "value": 27
+        },
+        {
+          "quantity": 1,
+          "menuid": "mussarela presunto",
+          "value": 27
+        },
+        {
+          "quantity": 1,
+          "menuid": "pizza mussarela",
+          "value": 25
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "asdfsaf",
+      "number": "asdfsadfasdfasdf",
+      "name": "asdfsdaf",
+      "tests": "deb&cre",
+      "delivery": "",
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "pizza mussarela",
+          "value": 25
+        },
+        {
+          "quantity": 1,
+          "menuid": "mussarela presunto",
+          "value": 27
+        }
+      ],
+      "id": 3
+    },
+    {
+      "address": "",
+      "number": "",
+      "name": "",
+      "tests": "deb&cre",
+      "delivery": "",
+      "detalheitems": [],
+      "id": 4
+    },
+    {
+      "address": "",
+      "number": "",
+      "name": "",
+      "tests": "",
+      "delivery": "",
+      "itemsvalue": "",
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "frango",
+          "value": 27
+        }
+      ],
+      "id": 5
+    },
+    {
+      "address": "",
+      "number": "",
+      "name": "",
+      "tests": "",
+      "delivery": "",
+      "detalheitems": [],
+      "id": 6
+    },
+    {
+      "address": "",
+      "number": "",
+      "name": "",
+      "tests": "",
+      "delivery": "",
+      "itemsvalue": "",
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "frango",
+          "value": 27
+        }
+      ],
+      "id": 7
+    },
+    {
+      "address": "",
+      "number": "",
+      "name": "",
+      "test": "mon",
+      "deliverys": "",
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "frango",
+          "value": 27
+        },
+        {
+          "quantity": 1,
+          "menuid": "mussarela presunto",
+          "value": 27
+        },
+        {
+          "quantity": 1,
+          "menuid": "pizza mussarela",
+          "value": 25
+        }
+      ],
+      "id": 8
+    },
+    {
+      "address": "",
+      "number": "",
+      "name": "",
+      "test": "mon",
+      "deliverys": "",
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "frango",
+          "value": 27
+        }
+      ],
+      "id": 9
+    },
+    {
+      "address": "",
+      "number": "",
+      "name": "",
+      "test": "",
+      "deliverys": "",
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "Napolitana",
+          "value": 27
+        }
+      ],
+      "id": 10
+    },
+    {
+      "address": "quadra 58 lote q",
+      "number": "",
+      "name": "irlane",
+      "test": "mon",
+      "deliverys": "",
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "Calabresa",
+          "value": 29
+        },
+        {
+          "quantity": 1,
+          "menuid": "frango",
+          "value": 27
+        }
+      ],
+      "id": 11
+    },
+    {
+      "address": "",
+      "number": "",
+      "name": "",
+      "test": "",
+      "deliverys": "",
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "Margarita",
+          "value": 29
+        }
+      ],
+      "id": 12
+    },
+    {
+      "address": "",
+      "number": "",
+      "name": "",
+      "test": "",
+      "deliverys": "",
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "frango",
+          "value": 27
+        }
+      ],
+      "id": 13
+    },
+    {
+      "address": "",
+      "number": "",
+      "name": "",
+      "test": "",
+      "deliverys": "",
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "frango",
+          "value": 27
+        },
+        {
+          "quantity": 1,
+          "menuid": "mussarela presunto",
+          "value": 27
+        }
+      ],
+      "id": 14
+    },
+    {
+      "address": "",
+      "number": "",
+      "name": "",
+      "test": "",
+      "deliverys": "",
+      "detalheitems": [],
+      "id": 15
+    },
+    {
+      "address": "",
+      "number": "",
+      "name": "",
+      "test": "",
+      "detalheitems": [],
+      "id": 16
+    },
+    {
+      "address": "euquiasaasdf",
+      "number": "23423",
+      "name": "Euquias",
+      "test": "pix",
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "pizza mussarela",
+          "value": 25
+        }
+      ],
+      "id": 17
+    }
+  ]
 }
