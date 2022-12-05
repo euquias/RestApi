@@ -61,8 +61,7 @@
       "hours": "Funciona de segunda à sábado, de 8h às 23h"
     }
   ],
-  "menu": [
-    {
+  "menu": [{
       "id": "pizza-mussarela",
       "imagePath": "assets/foods/mussarela.png",
       "name": "pizza mussarela",
@@ -197,10 +196,8 @@
       "description": "Picolé de brigadeiro recheado com côco.",
       "price": 5,
       "restaurantId": "Afavoritta"
-    }
-  ],
-  "menu2": [
-    {
+    }],
+  "menu2": [{
       "id": "coca",
       "imagePath": "assets/foods/coca.png",
       "name": "Coca 2 litro",
@@ -239,9 +236,9 @@
       "description": "Picolé de brigadeiro recheado com côco.",
       "price": 7,
       "restaurantId": "Afavoritta"
-    }
-  ],
-  "frete": [
+    }],
+  
+   "frete": [
     {
       "id": "frete",
       "imagePath": "",
@@ -440,37 +437,49 @@
   ],
   "orders": [
     {
-      "address": "casa do euquias",
-      "number": "212122",
-      "name": "euquias",
-      "tests": "deb&cre",
-      "delivery": 0,
+      "address": "QUADRA 102",
+      "number": "LOTE 20",
+      "name": "ALMIRENE",
+      "test": "deb&cre",
+      "obs": "FRANGO COM CATUPIRY \\ PORTUGUESA\nE CALABRESA MEDIA",
+      "total": 77.99,
       "detalheitems": [
         {
           "quantity": 1,
-          "menuid": "frango",
-          "value": 27
+          "menuid": "pizza mussarela",
+          "value": 25
         },
         {
           "quantity": 1,
-          "menuid": "mussarela presunto",
-          "value": 27
+          "menuid": "frango-catupiry",
+          "value": 31.99
+        },
+        {
+          "quantity": 2,
+          "menuid": "Chedda",
+          "value": 4
+        },
+        {
+          "quantity": 1,
+          "menuid": "Coca 2 litro",
+          "value": 10
+        },
+        {
+          "quantity": 1,
+          "menuid": "jadim edite",
+          "value": 3
         }
       ],
       "id": 1
     },
     {
-      "address": "sdasdaasdsad",
-      "number": "asdasdasdasdasd",
-      "name": "sdasdasdas",
-      "tests": "pix",
-      "delivery": "",
+      "address": "QUADRA 105",
+      "number": "LOTE 01 ( AO LADO DO LOTE 10 )",
+      "name": "CLEIDIANE",
+      "test": "deb&cre",
+      "obs": "",
+      "total": 37,
       "detalheitems": [
-        {
-          "quantity": 1,
-          "menuid": "frango",
-          "value": 27
-        },
         {
           "quantity": 1,
           "menuid": "mussarela presunto",
@@ -478,143 +487,24 @@
         },
         {
           "quantity": 1,
-          "menuid": "pizza mussarela",
-          "value": 25
+          "menuid": "jadim edite",
+          "value": 3
+        },
+        {
+          "quantity": 1,
+          "menuid": "Uva",
+          "value": 7
         }
       ],
       "id": 2
     },
     {
-      "address": "asdfsaf",
-      "number": "asdfsadfasdfasdf",
-      "name": "asdfsdaf",
-      "tests": "deb&cre",
-      "delivery": "",
-      "detalheitems": [
-        {
-          "quantity": 1,
-          "menuid": "pizza mussarela",
-          "value": 25
-        },
-        {
-          "quantity": 1,
-          "menuid": "mussarela presunto",
-          "value": 27
-        }
-      ],
-      "id": 3
-    },
-    {
-      "address": "",
-      "number": "",
-      "name": "",
-      "tests": "deb&cre",
-      "delivery": "",
-      "detalheitems": [],
-      "id": 4
-    },
-    {
-      "address": "",
-      "number": "",
-      "name": "",
-      "tests": "",
-      "delivery": "",
-      "itemsvalue": "",
-      "detalheitems": [
-        {
-          "quantity": 1,
-          "menuid": "frango",
-          "value": 27
-        }
-      ],
-      "id": 5
-    },
-    {
-      "address": "",
-      "number": "",
-      "name": "",
-      "tests": "",
-      "delivery": "",
-      "detalheitems": [],
-      "id": 6
-    },
-    {
-      "address": "",
-      "number": "",
-      "name": "",
-      "tests": "",
-      "delivery": "",
-      "itemsvalue": "",
-      "detalheitems": [
-        {
-          "quantity": 1,
-          "menuid": "frango",
-          "value": 27
-        }
-      ],
-      "id": 7
-    },
-    {
-      "address": "",
-      "number": "",
-      "name": "",
+      "address": "PROXIMO A DISTRIBUIDORA DO PAIM",
+      "number": "NAS KIT ",
+      "name": "NETO",
       "test": "mon",
-      "deliverys": "",
-      "detalheitems": [
-        {
-          "quantity": 1,
-          "menuid": "frango",
-          "value": 27
-        },
-        {
-          "quantity": 1,
-          "menuid": "mussarela presunto",
-          "value": 27
-        },
-        {
-          "quantity": 1,
-          "menuid": "pizza mussarela",
-          "value": 25
-        }
-      ],
-      "id": 8
-    },
-    {
-      "address": "",
-      "number": "",
-      "name": "",
-      "test": "mon",
-      "deliverys": "",
-      "detalheitems": [
-        {
-          "quantity": 1,
-          "menuid": "frango",
-          "value": 27
-        }
-      ],
-      "id": 9
-    },
-    {
-      "address": "",
-      "number": "",
-      "name": "",
-      "test": "",
-      "deliverys": "",
-      "detalheitems": [
-        {
-          "quantity": 1,
-          "menuid": "Napolitana",
-          "value": 27
-        }
-      ],
-      "id": 10
-    },
-    {
-      "address": "quadra 58 lote q",
-      "number": "",
-      "name": "irlane",
-      "test": "mon",
-      "deliverys": "",
+      "obs": "TROCO PRA 50,00",
+      "total": 32,
       "detalheitems": [
         {
           "quantity": 1,
@@ -623,92 +513,261 @@
         },
         {
           "quantity": 1,
-          "menuid": "frango",
+          "menuid": "jadim edite",
+          "value": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "address": "CASA DA DONA TEREZA",
+      "number": "MESQUITA",
+      "name": "YSABELLY",
+      "test": "deb&cre",
+      "obs": "",
+      "total": 46.989999999999995,
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "frango-catupiry",
+          "value": 31.99
+        },
+        {
+          "quantity": 1,
+          "menuid": "mesquita",
+          "value": 5
+        },
+        {
+          "quantity": 1,
+          "menuid": "Coca 2 litro",
+          "value": 10
+        }
+      ],
+      "id": 4
+    },
+    {
+      "address": "QUADRA 73 ",
+      "number": "LOTE 8",
+      "name": "MARCOS",
+      "test": "deb&cre",
+      "obs": "",
+      "total": 69.99,
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "Portuguesa",
+          "value": 31.99
+        },
+        {
+          "quantity": 1,
+          "menuid": "Moda da casa",
+          "value": 35
+        },
+        {
+          "quantity": 1,
+          "menuid": "jadim edite",
+          "value": 3
+        }
+      ],
+      "id": 5
+    },
+    {
+      "address": "CASA DE LELIO",
+      "number": "MESQUITA",
+      "name": "LERO",
+      "test": "mon",
+      "obs": "TROCO PRA 50",
+      "total": 34,
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "Calabresa",
+          "value": 29
+        },
+        {
+          "quantity": 1,
+          "menuid": "mesquita",
+          "value": 5
+        }
+      ],
+      "id": 6
+    },
+    {
+      "address": "CASA DE DELCIO",
+      "number": "MESQUITA",
+      "name": "RAFAELA",
+      "test": "pix",
+      "obs": "CALABRESA \\ FRANGO COM CATUPIRY",
+      "total": 46.989999999999995,
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "frango-catupiry",
+          "value": 31.99
+        },
+        {
+          "quantity": 1,
+          "menuid": "Coca 2 litro",
+          "value": 10
+        },
+        {
+          "quantity": 1,
+          "menuid": "mesquita",
+          "value": 5
+        }
+      ],
+      "id": 7
+    },
+    {
+      "address": "AO LADO DA DICA SEGUNDO COLCHETE",
+      "number": "MESQUITA",
+      "name": "SUZANE",
+      "test": "pix",
+      "obs": "",
+      "total": 61,
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "mussarela presunto",
           "value": 27
+        },
+        {
+          "quantity": 1,
+          "menuid": "Calabresa",
+          "value": 29
+        },
+        {
+          "quantity": 1,
+          "menuid": "mesquita",
+          "value": 5
+        }
+      ],
+      "id": 8
+    },
+    {
+      "address": "casa de lelio",
+      "number": "mesquita",
+      "name": "LERO",
+      "test": "deb&cre",
+      "obs": "",
+      "total": 29,
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "Calabresa",
+          "value": 29
+        }
+      ],
+      "id": 9
+    },
+    {
+      "address": "CHACARA MAMAE DIDA",
+      "number": "PORTEIRA BRANCA, FINAL DA RUA",
+      "name": "MARIA CRISTIENE",
+      "test": "mon",
+      "obs": "TROCO PRA 50",
+      "total": 46,
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "Moda da casa",
+          "value": 35
+        },
+        {
+          "quantity": 1,
+          "menuid": "Chedda",
+          "value": 4
+        },
+        {
+          "quantity": 1,
+          "menuid": "jardim abc",
+          "value": 7
+        }
+      ],
+      "id": 10
+    },
+    {
+      "address": "MESQUITA CHACARA DONA NEIDE",
+      "number": "NA OLARIA",
+      "name": "ISABELA",
+      "test": "pix",
+      "obs": "BORDA METADE CHEDDAR/CATUPIRY",
+      "total": 40.989999999999995,
+      "detalheitems": [
+        {
+          "quantity": 1,
+          "menuid": "Portuguesa",
+          "value": 31.99
+        },
+        {
+          "quantity": 1,
+          "menuid": "Chedda",
+          "value": 4
+        },
+        {
+          "quantity": 1,
+          "menuid": "mesquita",
+          "value": 5
         }
       ],
       "id": 11
     },
     {
-      "address": "",
-      "number": "",
-      "name": "",
-      "test": "",
-      "deliverys": "",
+      "address": "CASA DE EVALDO AO LADO DO PESQUE E PAGUE DO SOSSEGO",
+      "number": "MESQUITA",
+      "name": "LARISSA",
+      "test": "deb&cre",
+      "obs": "METADE MODA E METADE PORTUGUESA",
+      "total": 51,
       "detalheitems": [
         {
           "quantity": 1,
-          "menuid": "Margarita",
-          "value": 29
+          "menuid": "Moda da casa",
+          "value": 35
+        },
+        {
+          "quantity": 1,
+          "menuid": "Fanta",
+          "value": 7
+        },
+        {
+          "quantity": 1,
+          "menuid": "Catupiry",
+          "value": 4
+        },
+        {
+          "quantity": 1,
+          "menuid": "mesquita",
+          "value": 5
         }
       ],
       "id": 12
     },
     {
-      "address": "",
-      "number": "",
-      "name": "",
-      "test": "",
-      "deliverys": "",
+      "address": "Horta      ",
+      "number": "mesquita",
+      "name": "Ana Paula",
+      "test": "deb&cre",
+      "obs": "",
+      "total": 71,
       "detalheitems": [
         {
-          "quantity": 1,
-          "menuid": "frango",
-          "value": 27
-        }
-      ],
-      "id": 13
-    },
-    {
-      "address": "",
-      "number": "",
-      "name": "",
-      "test": "",
-      "deliverys": "",
-      "detalheitems": [
+          "quantity": 2,
+          "menuid": "Calabresa",
+          "value": 29
+        },
         {
-          "quantity": 1,
-          "menuid": "frango",
-          "value": 27
+          "quantity": 2,
+          "menuid": "Catupiry",
+          "value": 4
         },
         {
           "quantity": 1,
-          "menuid": "mussarela presunto",
-          "value": 27
+          "menuid": "mesquita",
+          "value": 5
         }
       ],
-      "id": 14
-    },
-    {
-      "address": "",
-      "number": "",
-      "name": "",
-      "test": "",
-      "deliverys": "",
-      "detalheitems": [],
-      "id": 15
-    },
-    {
-      "address": "",
-      "number": "",
-      "name": "",
-      "test": "",
-      "detalheitems": [],
-      "id": 16
-    },
-    {
-      "address": "euquiasaasdf",
-      "number": "23423",
-      "name": "Euquias",
-      "test": "pix",
-      "detalheitems": [
-        {
-          "quantity": 1,
-          "menuid": "pizza mussarela",
-          "value": 25
-        }
-      ],
-      "id": 17
+      "id": 13
     }
   ]
 }
